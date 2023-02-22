@@ -1,6 +1,7 @@
-import { withStyles } from "@mui/styles";
 import { Component } from "react";
+import { withStyles } from "@mui/styles";
 import { styleSheet } from "./style";
+
 
 
 class HomePage extends Component{
@@ -12,22 +13,20 @@ class HomePage extends Component{
 
         return(
             <div>
-                <h1 className={classes.container} >Car Rental System</h1>
+                <h1 className={classes.container} >Home Page</h1>
 
                 <head>
                     <nav>
                         <ul>
                         <li>Home</li>
-                        <li>Pasenger</li>
-                        <li>Driver</li>
                         <li>Vehicle</li>
-                        <li>Rent</li>
-                        <li>Payment</li>
+                        <li>About</li>
+                        <li>Driver</li>
                         </ul>
                     </nav>
                 </head>
                 <body>
-                    <img src="" alt="" />
+                <img className={classes.imgHomePage} src="https://cdn.wallpapersafari.com/46/74/WnEYQ6.jpg" alt="" />
                 </body>
                 <footer></footer>
                 
