@@ -1,6 +1,6 @@
 import { withStyles } from "@mui/styles";
 import { Component } from "react";
-import { styleSheet } from "../DriverPage/style";
+import { styleSheet } from "./style";
 
 
 class DriverPage extends Component{

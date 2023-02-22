@@ -1,6 +1,6 @@
 import { Component } from "react";
 import { withStyles } from "@mui/styles";
-import { styleSheet } from "../HomePage/style";
+import { styleSheet } from "./style";
 
 
 

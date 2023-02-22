@@ -1,6 +1,6 @@
 import { Component } from "react";
 import { withStyles, WithStyles } from "@mui/styles";
-import { styleSheet } from "../VehiclePage/style";
+import { styleSheet } from "./style";
 
 class VehiclePage extends Component{
     constructor (prop){
@@ -13,8 +13,7 @@ class VehiclePage extends Component{
                 <h1 className={classes.container} >Vehicle Page</h1>
 
                 <head></head>
-                <body>
-                </body>
+                <body></body>
                 <footer></footer>
             </div>
         )
