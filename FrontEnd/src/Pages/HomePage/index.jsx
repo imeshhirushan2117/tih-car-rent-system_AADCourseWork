@@ -1,6 +1,6 @@
 import { Component } from "react";
 import { withStyles } from "@mui/styles";
-import { styleSheet } from "./style";
+import { styleSheet } from "../HomePage/style";
 
 
 
@@ -13,7 +13,7 @@ class HomePage extends Component{
 
         return(
             <div>
-                <h1 className={classes.container} >Home Page</h1>
+                <h1 className={classes.container}> Home Page</h1>
 
                 <head>
                     <nav>

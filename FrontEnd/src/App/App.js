@@ -1,11 +1,13 @@
 import React from "react";
-import HomePage from '../Pages/HomePage/index'
-import VehiclePage from "../Pages/VehiclePage";
+import DriverPage from "../Pages/DriverPage/index";
+import HomePage from '../Pages/HomePage/index';
+import VehiclePage from "../Pages/VehiclePage/index";
 
 function App(){
   return(
     <HomePage/>,
-    <VehiclePage/>
+    <VehiclePage/>,
+    <DriverPage/>
 
   );
 }
