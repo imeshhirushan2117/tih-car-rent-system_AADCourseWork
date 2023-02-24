@@ -10,8 +10,7 @@ class AboutUsPage extends Component{
     }
     render(){
         <div>
-            <h1 className={classes.container} >AboutUs Page</h1>
-
+<h1 className={classes.container} >AboutLUs Page</h1>
                 <head></head>
                 <body></body>
                 <footer></footer>
